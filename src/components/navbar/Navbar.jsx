@@ -1,6 +1,10 @@
 import React from 'react'
 import styles from './navbar.module.css'
+
 import Image from 'next/image'
+import Link from 'next/link'
+import ThemeToogle from '../themeToogle/ThemeToogle'
+import AuthLinks from '../authLinks/AuthLinks'
 const Navbar = () => {
   return (
     <div className={styles.container}>
@@ -11,8 +15,16 @@ const Navbar = () => {
         <Image src="/medium.png"     alt="medium" width={24} height={24}/>
         <Image src="/quora.png"     alt="quora" width={24} height={24}/>
       </div>
-      <div className={styles.logo}></div>
-      <div className={styles.links}></div>
+      <div className={styles.logo}>Personal Injury Lawyers</div>
+      <div className={styles.links}>
+        <ThemeToogle/>
+
+        <Link href="/">Homepage</Link>
+        <Link href="/">Contact</Link>
+        <Link href="/">About</Link>
+
+        <AuthLinks/>
+      </div>
     </div>
   )
 }
