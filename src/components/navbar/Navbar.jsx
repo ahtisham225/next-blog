@@ -15,7 +15,7 @@ const Navbar = () => {
         <Image src="/medium.png"     alt="medium" width={24} height={24}/>
         <Image src="/quora.png"     alt="quora" width={24} height={24}/>
       </div>
-      <div className={styles.logo}>PIL</div>
+      <div className={styles.logo}>Personal Injury Lawyers</div>
       <div className={styles.links}>
         <ThemeToogle/>
 
