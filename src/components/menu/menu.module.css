@@ -36,6 +36,11 @@
     flex: 4;
 }
 
+.titleStories{
+    margin-top: 100px;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 768px){
     .items{
         margin-top: 55px;

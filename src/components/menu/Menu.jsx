@@ -87,6 +87,87 @@ const Menu = () => {
           </div>
         </Link>
       </div>
+      <h1 className={styles.titleStories}>Stories</h1>
+      <div className={styles.items}>
+        <Link href="/" className={styles.item}>
+          <div className={styles.imageContainer}>
+            <Image src="/p1.jpeg" alt='' fill className={styles.image}/>
+          </div>
+          <div className={styles.textContainer}>
+            <span className={`${styles.category} ${styles.buffalo}`}>
+              Buffalo NY
+            </span>
+            <h3>
+              How to Find Leading Personal Injury Lawyer in Buffalo NY    
+            </h3>
+          </div>
+        </Link>
+        <Link href="/" className={styles.item}>
+          <div className={styles.imageContainer}>
+            <Image src="/p1.jpeg" alt='' fill className={styles.image}/>
+          </div>
+          <div className={styles.textContainer}>
+            <span className={`${styles.category} ${styles.buffalo}`}>
+              Buffalo NY
+            </span>
+            <h3>
+              How to Find Leading Personal Injury Lawyer in Buffalo NY    
+            </h3>
+          </div>
+        </Link>
+        <Link href="/" className={styles.item}>
+          <div className={styles.imageContainer}>
+            <Image src="/p1.jpeg" alt='' fill className={styles.image}/>
+          </div>
+          <div className={styles.textContainer}>
+            <span className={`${styles.category} ${styles.buffalo}`}>
+              Buffalo NY
+            </span>
+            <h3>
+              How to Find Leading Personal Injury Lawyer in Buffalo NY    
+            </h3>
+          </div>
+        </Link>
+        <Link href="/" className={styles.item}>
+          <div className={styles.imageContainer}>
+            <Image src="/p1.jpeg" alt='' fill className={styles.image}/>
+          </div>
+          <div className={styles.textContainer}>
+            <span className={`${styles.category} ${styles.buffalo}`}>
+              Buffalo NY
+            </span>
+            <h3>
+              How to Find Leading Personal Injury Lawyer in Buffalo NY    
+            </h3>
+          </div>
+        </Link>
+        <Link href="/" className={styles.item}>
+          <div className={styles.imageContainer}>
+            <Image src="/p1.jpeg" alt='' fill className={styles.image}/>
+          </div>
+          <div className={styles.textContainer}>
+            <span className={`${styles.category} ${styles.buffalo}`}>
+              Buffalo NY
+            </span>
+            <h3>
+              How to Find Leading Personal Injury Lawyer in Buffalo NY    
+            </h3>
+          </div>
+        </Link>
+        <Link href="/" className={styles.item}>
+          <div className={styles.imageContainer}>
+            <Image src="/p1.jpeg" alt='' fill className={styles.image}/>
+          </div>
+          <div className={styles.textContainer}>
+            <span className={`${styles.category} ${styles.buffalo}`}>
+              Buffalo NY
+            </span>
+            <h3>
+              How to Find Leading Personal Injury Lawyer in Buffalo NY    
+            </h3>
+          </div>
+        </Link>
+      </div>
     </div>
   )
 }
