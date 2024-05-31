@@ -41,6 +41,14 @@
     font-size: 20px;
 }
 
+@media screen and (max-width: 1024px){
+    .itemsStories{
+        display: none;
+    }
+    .titleStories{
+        display: none;
+    }
+}
 @media screen and (max-width: 768px){
     .items{
         margin-top: 55px;
@@ -74,4 +82,13 @@
     .subtitle{
         display: none;
     }
+@media screen and (max-width: 385px){
+    .title{
+        display: none;
+    }
+    .items{
+        display: none;
+    }
+
+    }   
 }

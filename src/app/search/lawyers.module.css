@@ -1,0 +1,177 @@
+.title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #014059;
+  padding: 30px;
+  border-radius: 10px;
+}
+.titleImage{
+  margin-right: 20px;
+}
+.titleText{
+  color: white;
+  text-align: center;
+
+}
+.Image{
+  border-radius: 50%;
+}
+
+.lawyerInfo{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 5px solid  #014059;
+  align-items: center;
+
+}
+
+.textContainerLawyer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+
+}
+
+.lawyerTitle{
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
+.lawyerLocation{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: var(--softTextColor);
+  margin-bottom: 10px;
+}
+
+.lawyerTags{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.lawyerTag{
+  background-color: #014059;
+  color: white;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.lawyerDesc{
+  color: var(--softTextColor);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.lawyerDescSpan{
+  color: var(--textColor);
+}
+
+.infoReach{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.reachTab{
+  background-color: #014059;
+  color: white;
+  padding: 5px 100px;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-weight: 800;
+}
+.ratingLawyer{
+  text-align: center;
+}
+@media screen and (max-width: 1280px){
+  .lawyerTags{
+    max-width: 635px;
+  }
+  .lawyerDesc{
+    max-width: 635px;
+  
+  }
+  .reachTab{
+    padding: 5px 70px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .lawyerTags{
+    max-width: 455px;
+  }
+  .lawyerDesc{
+    max-width: 455px;
+  
+  }
+  .reachTab{
+    padding: 5px 45px;
+  }
+}
+@media screen and (max-width: 768px){
+  .title{
+    flex-direction: column;
+    padding: 20px;
+    font-size: 16px;
+  
+  }
+  .titleImage{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .lawyerInfo{
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .textContainerLawyer{
+    margin-left: 0;
+  }
+  .reachTab{
+    padding: 5px 30px;
+  }
+  .imageContainerLawyer{
+    border-radius: 10px;
+  }
+  .imageLawyer{
+    width: 300px;
+    height: 300px;
+  }
+  .lawyerLocation{
+    align-items: normal;
+  }
+}
+
+@media screen and (max-width: 448px){
+  .lawyerTags{
+    flex-direction: column;
+  }
+  .lawyerTag{
+    margin-bottom: 10px;
+  }
+  .reachTab{
+    padding: 5px 20px;
+  }
+  .imageLawyer{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .reachTab{
+    padding: 5px 8px;
+  }
+}

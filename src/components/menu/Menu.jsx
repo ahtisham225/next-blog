@@ -88,7 +88,7 @@ const Menu = () => {
         </Link>
       </div>
       <h1 className={styles.titleStories}>Stories</h1>
-      <div className={styles.items}>
+      <div className={styles.itemsStories}>
         <Link href="/" className={styles.item}>
           <div className={styles.imageContainer}>
             <Image src="/p1.jpeg" alt='' fill className={styles.image}/>
